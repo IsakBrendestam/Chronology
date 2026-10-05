@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "client/client_backend",
+    "client/client_ui", 
+    "client/communication_layer",
+    "server",
+    "common", 
+]
+
+resolver = "3"

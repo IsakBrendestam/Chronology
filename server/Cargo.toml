@@ -1,0 +1,12 @@
+[package]
+name = "game_server"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+game_common = { path = "../common" }
+smol = { version = "2.0.2" }
+async-channel = "2.5.0"
+rand = "0.9.2"
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.149"

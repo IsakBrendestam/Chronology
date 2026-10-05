@@ -1,0 +1,21 @@
+[package]
+name = "communication_layer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+game_common = { path = "../../common" }
+async-channel = "1.9"
+bevy = { version = "0.18.0", features = [
+    "x11",   
+    "bevy_winit",
+    "bevy_render",
+    "bevy_core_pipeline",
+    "bevy_pbr",
+    "bevy_gltf",
+    "bevy_ui",
+    "bevy_text",
+    "bevy_audio",
+    "bevy_sprite",
+    "png"
+]}
